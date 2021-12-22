@@ -8,8 +8,8 @@ namespace CodeTest.TestStub
     {
         static void Main()
         {
-            TestGetTaxRate();
-            TestCalculateTaxes();
+            TestGetTaxRate();//test getting tax rate from api
+            TestCalculateTaxes();// test calculating tax from api
             Console.ReadLine();
         }
 
