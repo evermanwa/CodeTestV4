@@ -10,7 +10,7 @@ namespace CodeTest.TestStub
         {
             TestGetTaxRate();//test getting tax rate from api
             TestCalculateTaxes();// test calculating tax from api
-            Console.ReadLine();
+            Console.ReadLine();//prevent this from closing out right away
         }
 
         static async void TestGetTaxRate()
